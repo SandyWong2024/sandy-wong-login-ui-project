@@ -1,0 +1,52 @@
+/*style sheet for my login project*/
+
+html, body{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+body{
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-directions: column;
+  min-width: 500px;
+  min-height: 300px;
+  width: 15%;
+  height: 10%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 2px rgb(207, 205, 205);
+}
+.sign-in{
+  font-size: 40px;
+  font-weight: normal;
+}
+.userInputs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-directions: column;
+  height: 200px;
+}
+.inputBox{
+  width: 175px;
+  border-color: transparent;
+  border-bottom-color: black;
+}
+.inputBtn{
+  height: 30px;
+  width: 200px;
+  background-color: #008CBA;
+  color: #ffffff;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 12px;
+}
+.inputBtn:hover{
+  background-color: rgb(0, 97, 129)
+}
